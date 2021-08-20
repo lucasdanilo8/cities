@@ -1,6 +1,6 @@
 package com.dio.lucasdanilo8.cities.Countries.Resource;
 
-import com.dio.lucasdanilo8.cities.Countries.Country;
+import com.dio.lucasdanilo8.cities.Countries.entities.Country;
 import com.dio.lucasdanilo8.cities.Countries.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
