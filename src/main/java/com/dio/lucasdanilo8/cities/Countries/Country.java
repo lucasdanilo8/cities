@@ -1,4 +1,4 @@
-package com.dio.lucasdanilo8.cities;
+package com.dio.lucasdanilo8.cities.Countries;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

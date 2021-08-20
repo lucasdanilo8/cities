@@ -1,6 +1,7 @@
-package com.dio.lucasdanilo8.cities;
+package com.dio.lucasdanilo8.cities.Countries.Resource;
 
-import com.dio.lucasdanilo8.cities.repository.CountryRepository;
+import com.dio.lucasdanilo8.cities.Countries.Country;
+import com.dio.lucasdanilo8.cities.Countries.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,8 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.Optional;
-
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping("/countries")
