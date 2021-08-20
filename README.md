@@ -1,7 +1,7 @@
 ## Cities API
 #Status: Finalizando. V.0.1
 
-Objetivo: Após ocnseguir rodar as principais funcionalidades, pretendo criar testes autamatizados para validar os retornos funções de calculo e os verbos Http.  
+Objetivo: Após rodar as principais funcionalidades, pretendo criar testes autamatizados para validar os retornos funções de calculo e os verbos Http e treinar os conheciementos em testes de API.  
 
 ## Esta API foi disponibilizada a partir da Aula da Dio, como projeto de final decurso.
 
