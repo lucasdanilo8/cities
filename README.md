@@ -1,4 +1,12 @@
-# Cities API
+## Cities API
+#Status: Finalizando. V.0.1
+
+Objetivo: Após ocnseguir rodar as principais funcionalidades, pretendo criar testes autamatizados para validar os retornos funções de calculo e os verbos Http.  
+
+## Esta API foi disponibilizada a partir da Aula da Dio, como projeto de final decurso.
+
+A principio foi instruida utilizando o linux, mas sem uma máquina que me permitia ao menos virtualizar um OS linux acabei preferindo por rodar a docker cli no windows, usar o intelliJ no Windows.
+
 
 ## Requirements
 
@@ -7,7 +15,7 @@
 * Java 8
 * Docker
 * IntelliJ Community
-* Heroku CLI
+
 
 ## DataBase
 
@@ -25,8 +33,11 @@ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city 
 
 ```shell script
 cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+docker cp pais.sql cities-db:/tmp
+docker cp estado.sql cities-db:/tmp
+docker cp cidade.sql cities-db:/tmp
 
-docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
+```cli Docker windows
 
 psql -h localhost -U postgres_user_city cities -f /tmp/pais.sql
 psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
